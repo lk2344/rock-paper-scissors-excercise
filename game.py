@@ -6,7 +6,7 @@ import random
 print("Welcome to my Rock, Paper, Scissors Game")
 
 #process user inputs
-user_input = input("Please choose one 'rock', 'paper', 'scisors'")
+user_input = input("Please choose one 'rock', 'paper', 'scissors'")
 user_input = user_input.lower()
 
 #validate user input
@@ -17,7 +17,7 @@ if user_input in valid_options:
 
 	#simulate computer selection
 	computer_choice = random.choice(valid_options)
-		print("Computer chose:", computer_choice)
+	print("Computer chose:", computer_choice)
 
 
 	#determine winner
@@ -40,7 +40,7 @@ if user_input in valid_options:
 			print("You Lost :(")								
 
 
-	if user_input not in valid_options:
-		print("INVALID CHOICE. TRY AGAIN")			
-		exit()
+if user_input not in valid_options:
+	print("INVALID CHOICE. TRY AGAIN")			
+	exit()
 
