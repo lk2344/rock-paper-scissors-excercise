@@ -1,13 +1,11 @@
-# rock-paper-scissors-excercise
+# Rock Paper Scissors Excercise
 
-#Rock Paper Scissors Excercise
-
-##Prerequisites:
+## Prerequisites:
 +Anaconda 3.7+
 +Python 3.7+
 +Pip
 
-##Setup
+## Setup
 
 Clone the repository onto your desktop, and navigate to it from the command-line.
 ```python
@@ -21,7 +19,7 @@ python game.py
 
 Follow the prompts and select a choice to play the game.
 
-##Demo
+## Demo
 
 Here is a sample gameplay round:
 ```
