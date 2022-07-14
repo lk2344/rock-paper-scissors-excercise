@@ -3,7 +3,7 @@
 
 import random
 
-print("Welcome to my Rock, Paper, Scissors Game")
+print("Welcome 'Player One' to my Rock, Paper, Scissors Game")
 
 #process user inputs
 user_input = input("Please choose one 'rock', 'paper', 'scissors'")
@@ -37,7 +37,9 @@ if user_input in valid_options:
 		if computer_choice == "paper":
 			print("You Win!")
 		else:
-			print("You Lost :(")								
+			print("You Lost :(")	
+
+	print("Thanks for Playing!")							
 
 
 if user_input not in valid_options:
